@@ -2,3 +2,8 @@
 JavaSample/build/
 JavaSample/.gradle/
 JavaSample/.idea/
+
+# KotlinSample
+KotlinSample/build/
+KotlinSample/.gradle/
+KotlinSample/.idea/
