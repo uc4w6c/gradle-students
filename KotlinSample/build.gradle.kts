@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "GradleStudent"
-version = ".0-SNAPSHOT"
+version = "1.0-SNAPSHOT"
 val sourceCompatibility = "11"
 
 repositories {
@@ -14,13 +14,6 @@ repositories {
 
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-}
-
-tasks.withType<KotlinCompile> {
-    kotlinOptions {
-        freeCompilerArgs = listOf("-Xjsr305=strict")
-        jvmTarget = "11"
-    }
 }
 
 val compileTestKotlin: KotlinCompile by tasks
