@@ -1,5 +1,5 @@
 package com.example.jdk13
 
-fun main() {fun main() {
-    
+fun main() {
+    print(true)
 }
