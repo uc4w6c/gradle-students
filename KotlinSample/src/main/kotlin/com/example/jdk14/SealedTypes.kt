@@ -19,15 +19,15 @@ fun main() {
 }
 
 sealed class HondaCar
-class Demio: HondaCar() {
-    fun getName():String { return "Demio" }
-}
-class Vezel: HondaCar() {
-    fun getName():String { return "Vezel" }
-}
+class Demio: HondaCar()
+    // fun getName():String { return "Demio" }
+
+class Vezel: HondaCar()
+    // fun getName():String { return "Vezel" }
+
 
 interface NissanCar
-class Leaf: NissanCar {
+class Leaf: NissanCar{
     fun getName():String { return "Leaf" }
 }
 class Juke: NissanCar {
