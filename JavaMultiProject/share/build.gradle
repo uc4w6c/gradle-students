@@ -1,0 +1,6 @@
+dependencies {
+}
+
+mainClassName = 'App'
+jar {
+}

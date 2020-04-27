@@ -1,0 +1,9 @@
+dependencies {
+}
+
+mainClassName = 'Bar'
+jar {
+    manifest {
+        attributes 'Main-Class': "Bar"
+    }
+}

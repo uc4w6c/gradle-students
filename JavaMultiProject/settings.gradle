@@ -8,3 +8,4 @@
  */
 
 rootProject.name = 'JavaMultiProject'
+include 'foo', 'bar', 'share'

@@ -1,0 +1,10 @@
+dependencies {
+    implimantation project("share")
+}
+
+mainClassName = 'Foo'
+jar {
+    manifest {
+        attributes 'Main-Class': "Foo"
+    }
+}
