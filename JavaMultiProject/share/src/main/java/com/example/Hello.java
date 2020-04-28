@@ -1,3 +1,5 @@
+package com.example;
+
 public class Hello {
     private String name;
     public Hello(String name) {

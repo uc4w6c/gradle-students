@@ -1,6 +1,8 @@
+// apply plugin: 'application'
+
 dependencies {
 }
 
-mainClassName = 'App'
+// mainClassName = 'App'
 jar {
 }

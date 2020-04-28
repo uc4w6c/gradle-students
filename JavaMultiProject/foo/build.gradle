@@ -1,10 +1,14 @@
+apply plugin: 'application'
+
 dependencies {
-    implimantation project("share")
+    // implementationだとエラーになった・・・
+    // implementation project(":share")
+    compile project(":share")
 }
 
-mainClassName = 'Foo'
+mainClassName = 'com.example.Foo'
 jar {
     manifest {
-        attributes 'Main-Class': "Foo"
+        attributes 'Main-Class': "com.example.Foo"
     }
 }
