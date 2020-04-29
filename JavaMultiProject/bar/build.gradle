@@ -1,11 +1,13 @@
 apply plugin: 'application'
 
 dependencies {
+    implementation project(":share")
 }
 
-mainClassName = 'Bar'
+mainClassName = 'com.example.Bar'
 jar {
     manifest {
-        attributes 'Main-Class': "Bar"
+        attributes 'Main-Class': "com.example.Bar"
     }
+    from configurations.compileClasspath.collect { it.isDirectory() ? it : zipTree(it) }
 }
