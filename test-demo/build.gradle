@@ -24,6 +24,7 @@ tasks.named('test') {
 
 test {
 	finalizedBy jacocoTestReport
+	ignoreFailures = true
 	testLogging {
 		events "failed"
 		exceptionFormat "full"
